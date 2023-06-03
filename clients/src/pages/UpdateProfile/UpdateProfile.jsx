@@ -10,7 +10,7 @@ import "./UpdateProfile.css";
 import { Container } from "react-bootstrap";
 import { BsFillCameraFill } from "react-icons/bs";
 import { AiOutlineMedicineBox } from "react-icons/ai";
-import Avatar from "react-avatar-edit";
+import Avatar from "react-avatar-editor";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
