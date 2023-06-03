@@ -1,6 +1,5 @@
 import { Elements } from "react-stripe-elements";
 import { loadStripe } from "@stripe/stripe-js";
-import React from "react";
 import { Alert, Col, Container, Row, Table } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import CheckoutForm from "../../components/CheckoutForm/CheckoutForm";
@@ -121,7 +120,7 @@ function CartPage() {
               </Table>
               <div className="sub_total">
                 <h3>Total:</h3>
-                <h3><i class="fa-solid fa-dollar-sign"></i> {user.cart.total}</h3>
+                <h3>{user.cart.total}</h3>
               </div>
             </>
           </Col>
