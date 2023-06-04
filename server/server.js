@@ -8,7 +8,7 @@ require('./connection');
 const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server, {
-  cors: 'http://localhost:5173',
+  cors: 'https://647bfd70c622316059452a21--boisterous-baklava-1999da.netlify.app',
   methods: ['GET', 'POST', 'PATCH', "DELETE"]
 })
 
