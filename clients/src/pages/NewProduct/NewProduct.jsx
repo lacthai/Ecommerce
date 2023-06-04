@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 import { Alert, Button, Col, Container, Form, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
